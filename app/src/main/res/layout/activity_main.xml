@@ -15,17 +15,18 @@
         <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Gatos" />
+            android:icon="@drawable/baseline_document_scanner" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Notification" />
+            android:icon="@drawable/baseline_attach_money" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Settings" />
+            android:icon="@drawable/baseline_person" />
+
 
     </com.google.android.material.tabs.TabLayout>
 

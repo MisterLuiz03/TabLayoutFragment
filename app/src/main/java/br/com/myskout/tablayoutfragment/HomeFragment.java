@@ -17,7 +17,8 @@ public class HomeFragment extends Fragment {
     ListView lstGatos;
 
     //Criar os dados
-    String nomeGato[] = {"Panqueca", "Soneca", "Juma", "Ramela"};
+
+    String nomeGato[] = {"RG", "Título de Eleitor", "CNH", "RG"};
     String descricaoGato[] = {
             "Quero ser adotado alguém ai se disponibiliza...",
             "Alguém gosta de gato, estou aqui...",
@@ -25,10 +26,9 @@ public class HomeFragment extends Fragment {
             "Estou disponível para ser adotado..."
 
     };
-    String numGato[] = {"5.0", "8.0", "9.0", "9.5"};
     int imagemGato[] = {
-            R.drawable.gato, R.drawable.ciames,
-            R.drawable.rajado, R.drawable.preto_branco
+            R.drawable.rg1, R.drawable.tituloele,
+            R.drawable.cnh, R.drawable.rg2
     };
 
     @Override
@@ -78,13 +78,11 @@ public class HomeFragment extends Fragment {
 
             txtNomeGato = v.findViewById(R.id.txtNomeGato);
             txtDescricaoGato = v.findViewById(R.id.txtDescricaoGato);
-            txtNumGato = v.findViewById(R.id.txtNumGato);
             imgGato = v.findViewById(R.id.imgModeloGato);
 
             //Inserindo valores nos objetos do modelo
             txtNomeGato.setText(nomeGato[i]);
             txtDescricaoGato.setText(descricaoGato[i]);
-            txtNumGato.setText(numGato[i]);
             imgGato.setImageResource(imagemGato[i]);
 
             return v;
